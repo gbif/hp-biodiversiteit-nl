@@ -1,5 +1,5 @@
 ---
-permalink: /da/literature/search
+permalink: /nl/literature/search
 lang-ref: literature/search
 title: Literature search
 description: We publish open data
