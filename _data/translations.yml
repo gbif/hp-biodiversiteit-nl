@@ -1,7 +1,14 @@
-# The translations on this page is machine generated and need a review
+# The translations on this page is terms:
+  en: |
+    We use cookies on our website. Some are technically necessary, others help us improve your user experience. You can decline non-essential cookies by selecting "Reject". Please see our [Privacy Policy](/privacy) for further information about our privacy practices and use of cookies.
+  nl: |
+    We gebruiken cookies op onze website. Sommige zijn technisch noodzakelijk, andere helpen ons uw gebruikerservaring te verbeteren. U kunt niet-essentiële cookies weigeren door "Weigeren" te selecteren. Zie ons [Privacybeleid](/privacy) voor meer informatie over onze privacypraktijken en het gebruik van cookies.
+  es: |
+    Utilizamos cookies en nuestro sitio web. Algunas son técnicamente necesarias, otras nos ayudan a mejorar su experiencia de usuario. Puede rechazar las cookies no esenciales seleccionando "Rechazar". Consulte nuestra [Política de privacidad](/privacy) para obtener más información sobre nuestras prácticas de privacidad y el uso de cookies.ne generated and need a review
 # reviewed languages: en (add others as they are reviewed)
 relatedPosts:
   en: "Related Posts"
+  nl: "Gerelateerde berichten"
   es: "Artículos relacionados"
   it: "Post Correlati"
   ru: "Связанные публикации"
@@ -12,6 +19,7 @@ relatedPosts:
 
 differentLanguage:
   en: "This page is available in following languages"
+  nl: "Deze pagina is beschikbaar in de volgende talen"
   es: "Esta página está disponible en los siguientes idiomas"
   it: "Questa pagina è disponibile in diverse lingue"
   ru: "Эта страница доступна на следующих языках"
@@ -22,6 +30,7 @@ differentLanguage:
 
 tocTitle:
   en: "On this page"
+  nl: "Op deze pagina"
   it: "In questa pagina"
   ru: "На этой странице"
   ar: "على هذه الصفحة"
@@ -50,6 +59,7 @@ terms:
 
 acceptTerms:
   en: 'Accept'
+  nl: 'Accepteren'
   es: 'Aceptar'
   it: 'Accetta'
   ru: 'Принять'
@@ -60,6 +70,7 @@ acceptTerms:
 
 rejectTerms:
   en: 'Reject'
+  nl: 'Weigeren'
   es: 'Rechazar'
   it: 'Rifiuta'
   ru: 'Отклонить'
@@ -72,6 +83,7 @@ rejectTerms:
 contentTypes:
   DataUse:
     en: 'Data use'
+    nl: 'Datagebruik'
     es: 'Uso de datos'
     it: 'Uso dei dati'
     ru: 'Использование данных'
@@ -81,6 +93,7 @@ contentTypes:
     ja: 'データ利用'
   News:
     en: 'News'
+    nl: 'Nieuws'
     es: 'Noticias'
     it: 'Notizie'
     ru: 'Новости'
@@ -90,6 +103,7 @@ contentTypes:
     ja: 'ニュース'
   Event:
     en: 'Event'
+    nl: 'Evenement'
     es: 'Evento'
     it: 'Evento'
     ru: 'Событие'
@@ -99,6 +113,7 @@ contentTypes:
     ja: 'イベント'
   Literature:
     en: 'Literature'
+    nl: 'Literatuur'
     es: 'Literatura'
     it: 'Letteratura'
     ru: 'Литература'

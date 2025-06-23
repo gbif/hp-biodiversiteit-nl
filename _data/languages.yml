@@ -3,6 +3,9 @@
 en:
   label: English
   archive_permalink: /post/
+nl: 
+  label: Nederlands
+  archive_permalink: /nl/post/
 es:
   label: Español
   archive_permalink: /es/post/
