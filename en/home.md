@@ -12,6 +12,8 @@ cta:
     isPrimary: true
   - text: Datasets
     href: /dataset/search
+  - text: Literature
+    href: /literature/search
   - text: About
     href: /about
 composition:
