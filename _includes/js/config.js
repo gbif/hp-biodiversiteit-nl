@@ -126,27 +126,27 @@ var siteConfig = {
         },
     },
     "publisherSearch": {},
-    "isSequencedSearch":{
+    "isSequencedSearch": {
         "scope": {
-    "type": "and",
-    "predicates": [
-      {
-        "type": "equals",
-        "key": "publishingOrg",
-        "value": "396d5f30-dea9-11db-8ab4-b8a03c50a862"
-      },
-      {
-        "type": "equals",
-        "key": "occurrenceStatus",
-        "value": "PRESENT"
-      },
-      {
-        "type": "equals",
-        "key": "isSequenced",
-        "value": "true"
-      }
-    ]
-  },
+            "type": "and",
+            "predicates": [
+                {
+                    "type": "equals",
+                    "key": "publishingOrg",
+                    "value": "396d5f30-dea9-11db-8ab4-b8a03c50a862"
+                },
+                {
+                    "type": "equals",
+                    "key": "occurrenceStatus",
+                    "value": "PRESENT"
+                },
+                {
+                    "type": "equals",
+                    "key": "isSequenced",
+                    "value": "true"
+                }
+            ]
+        }
     },
     "literatureSearch": {
         "scope": {
