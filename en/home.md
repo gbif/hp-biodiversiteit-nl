@@ -15,7 +15,7 @@ cta:
   - text: Literature
     href: /literature/search
   - text: Sequenced records
-    href: /occurrence/search/sequenced
+    href: sequenced/search
   - text: About
     href: /about
 composition:
