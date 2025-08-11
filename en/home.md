@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: biodiversiteit-nl
 description: Biodiversity data from the Netherlands
-background:  "{{ site.data.images.catocala_ilia_cramer.src }}"
+background: "{{ site.data.images.catocala_ilia_cramer.src }}"
 imageLicense: "{{ site.data.images.catocala_ilia_cramer.caption }}"
 height: 90vh
 cta:
@@ -14,12 +14,12 @@ cta:
     href: /dataset/search
   - text: Literature
     href: /literature/search
- - text: Sequenced records
+  - text: Sequenced records
     href: /occurrence/search/sequenced
   - text: About
     href: /about
 composition:
-  - type: heroImage # the block type
+  - type: heroImage
   - type: stats
     data: examples.stats
   - type: split
