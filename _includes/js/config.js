@@ -16,7 +16,6 @@ var siteConfig = {
         {
             "id": "isSequencedSearch"
         }
-        
     ],
     "disableInlineTableFilterButtons": true,
     "availableCatalogues": [
@@ -169,4 +168,4 @@ var siteConfig = {
             ]
         },
     }
-}
+};
