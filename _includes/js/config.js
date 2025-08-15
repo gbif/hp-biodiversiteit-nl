@@ -1,3 +1,4 @@
+const countryCode = "NL";
 var siteConfig = {
     "version": 3,
     "pages": [
@@ -124,7 +125,15 @@ var siteConfig = {
             publishingCountry: ["NL"]
         },
     },
-    "publisherSearch": {},
+ 
+    "publisheSearch": {}
+ "collection": {
+    "excludedFilters": ["countryGrSciColl"],
+    "rootFilter": {
+      "displayOnNHCPortal": "true",
+      "country": "countryCode",
+      "active": "true",
+    },
     "isSequencedSearch": {
         "scope": {
             "type": "and",
