@@ -16,7 +16,10 @@ var siteConfig = {
         },
         {
             "id": "isSequencedSearch"
+        },
+        { "id": "collectionSearch"
         }
+        
     ],
     "disableInlineTableFilterButtons": true,
     "availableCatalogues": [
@@ -126,8 +129,8 @@ var siteConfig = {
         },
     },
  
-    "publisheSearch": {}
- "collection": {
+    "publisheSearch": {},
+ "collectionSearch": {
     "excludedFilters": ["countryGrSciColl"],
     "rootFilter": {
       "displayOnNHCPortal": "true",
