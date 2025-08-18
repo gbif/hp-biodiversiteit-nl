@@ -2,6 +2,8 @@
 
 - text: About
   href: /about
+- text: Dashboard
+  href: /dashboard
 # - text: Occurrences
 #   href: /occurrence/search
 - text: Data
