@@ -135,12 +135,10 @@ var siteConfig = {
         },
     },
  
-    "publisheSearch": {},
+"publisheSearch": {},
  "collectionSearch": {
         excludedFilters: ['country', 'active'],
-        // highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-        // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        scope: {
+           scope: {
             institutionKey: institutionKeys,
             active: true
         },
@@ -188,5 +186,4 @@ var siteConfig = {
             ]
         },
     }
-}
 }
