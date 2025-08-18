@@ -1,6 +1,5 @@
 ---
-layout: documentation
-sideNavigation: sidenav.taxonomy
+layout: collection-search
 title: My Custom Query
 permalink: /custom/query
 ---
