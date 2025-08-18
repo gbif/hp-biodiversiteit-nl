@@ -1,4 +1,10 @@
 const countryCode = "NL";
+var institutionKeys = [
+    '0e919a55-08d3-4bd2-aec1-200858fafd92',
+    '7bf98185-7f54-47c9-b4fc-486b060bb102',
+    '9ea57514-c5af-48fa-ab43-0d26d6c066e6',
+    '1370bc72-540f-4ff0-aefd-2358971299be'
+];
 var siteConfig = {
     "version": 3,
     "pages": [
@@ -131,11 +137,13 @@ var siteConfig = {
  
     "publisheSearch": {},
  "collectionSearch": {
-    "excludedFilters": ["countryGrSciColl"],
-    "rootFilter": {
-      "displayOnNHCPortal": "true",
-      "country": "countryCode",
-      "active": "true",
+        excludedFilters: ['country', 'active'],
+        // highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
+        // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
+        scope: {
+            institutionKey: institutionKeys,
+            active: true
+        },
     },
     "isSequencedSearch": {
         "scope": {
