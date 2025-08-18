@@ -12,6 +12,8 @@ cta:
     isPrimary: true
   - text: Datasets
     href: /dataset/search
+  - text: Collections
+    href: /collection/search
   - text: Literature
     href: /literature/search
   - text: Sequenced records
