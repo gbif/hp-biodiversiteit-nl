@@ -4,8 +4,8 @@
   href: /about
 - text: Dashboard
   href: /dashboard
-# - text: Occurrences
-#   href: /occurrence/search
+#- text: Occurrences
+#  href: /occurrence/search
 - text: Data
   menu: 
   - text: Specimens
@@ -16,6 +16,8 @@
     href: /collection/search
   - text: Literature
     href: /literature/search
+  - text: Map Viewer
+    href: mapviewer
 - text: Example pages
   menu: # Dropdown menu (one level deep only)
   - text: Simple
@@ -36,5 +38,5 @@
     href: https://guides.github.com/features/mastering-markdown/
   - text: YAML tutorial
     href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
-- text: News
-  href: /news/
+  - text: News
+    href: /news

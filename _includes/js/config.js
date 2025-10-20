@@ -76,7 +76,7 @@ var siteConfig = {
         }
         
     ],
-    "disableInlineTableFilterButtons": true,
+    "disableInlineTableFilterButtons": true, //disable option for adding filters by clicking table cells. See https://github.com/gbif/hosted-portals/issues/274
     "availableCatalogues": [
         "OCCURRENCE",
         "DATASET",
@@ -141,7 +141,11 @@ var siteConfig = {
             "collectionKey",
             "catalogNumber",
             "recordedBy",
-            "identifiedBy"
+            "identifiedBy",
+            "iucnRedListCategory",
+            "year",
+            "month",
+            "geometry"
         ],
         "excludedFilters": [
             "occurrenceStatus",

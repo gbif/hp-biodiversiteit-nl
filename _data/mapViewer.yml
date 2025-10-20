@@ -1,0 +1,69 @@
+mapViewer:
+  klass: iframe-box
+  markdownContent: |
+    <div id="map" style="width:100%; height:70vh;"></div>
+    <button id="resetAdmin" class="map-control map-button">Clear province selection</button>
+    <button id="openOcc" class="map-control map-button" style="display: none;">Open occurrences</button>
+    <div id="yearControl" class="map-control">
+      </div>
+
+    <style>
+      .ol-unselectable.ol-control {
+          margin: 0;
+      }
+      
+      .map-control {
+          background: white;
+          border: 1px solid #ccc;
+          border-radius: 6px;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+          font: 14px system-ui, sans-serif;
+      }
+
+      .map-button {
+          padding: 6px 10px;
+          cursor: pointer;
+          display: inline-block; 
+      }
+
+      #resetAdmin {
+          position: absolute;
+          left: 50px;
+          top: 12px;
+      }
+      #openOcc {
+          position: absolute;
+          left: 230px;
+          top: 12px;
+          display: none; 
+      }
+    
+      #yearControl {
+          position: absolute;
+          left: 12px;
+          top: 60px;
+          padding: 10px;
+          min-width: 240px;
+          cursor: default;
+      }
+      
+      .year-title {
+          font-weight: 600;
+          margin-bottom: 40px;
+      }
+      .year-label {
+          text-align: center;
+      }
+
+      /*filter to change the color of the basemap */
+      .ol_bw {
+    filter: grayscale(60%);
+      }
+    </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.6.0/dist/ol.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@15.7.0/dist/nouislider.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.0/dist/nouislider.min.js"></script>
+
+    <script> {% include js/map.js %} </script>
