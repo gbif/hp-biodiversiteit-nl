@@ -32,7 +32,8 @@ const map = new ol.Map({
   })
 });
 
-// Provinces layer
+// Provinces Layer
+//GADM provinces GeoJSON layer used for selecting provinces by map click and retrieving the province name and GADM ID, which are then used to build the GBIF Maps API calls
 const provincesLayer = new ol.layer.Vector({
   source: new ol.source.Vector({
     url: '/assets/layers/gadm41_NLD_1.json',
@@ -65,34 +66,34 @@ const gbifLayer = new ol.layer.Tile({
 map.addLayer(gbifLayer);
 
 // --- Helpers ---
-function isYearsNarrowed() {
+function yearRangeChanged() {
   return state.yearFrom !== MIN_YEAR || state.yearTo !== MAX_YEAR;
 }
 
 function isFilterActive() { 
-  return !!state.gadmGid || isYearsNarrowed();
+  return !!state.gadmGid || yearRangeChanged();
 }
 
 // Build GBIF URL
 function buildGbifUrlFromState() {
   const baseUrl = 'https://api.gbif.org/v2/map/occurrence/adhoc/{z}/{x}/{y}@1x.png';
-  const sp = new URLSearchParams({
+  const params = new URLSearchParams({
     srs: 'EPSG:3857',
     style: 'scaled.circles',
     ts: Date.now().toString() //timestamp is used to eliminate caching when tiles are changing 
   });
 
-  if (state.gadmGid) {
-    sp.set('gadm_gid', state.gadmGid); 
-  } else if (isYearsNarrowed()) {
-    sp.set('country', DEFAULT_COUNTRY);
+  if (state.gadmGid) { // identifies each province that is clicked on the map and makes the GBIF Maps API call
+    params.set('gadm_gid', state.gadmGid); 
+  } else if (yearRangeChanged()) {
+    params.set('country', DEFAULT_COUNTRY);
   }
 
-  if (isYearsNarrowed()) {
-    sp.set('year', `${state.yearFrom},${state.yearTo}`);
+  if (yearRangeChanged()) {
+    params.set('year', `${state.yearFrom},${state.yearTo}`);
   }
 
-  return `${baseUrl}?${sp.toString()}`;
+  return `${baseUrl}?${params.toString()}`;
 }
 
 // Apply current state to map and buttons
@@ -107,7 +108,7 @@ function render(zoomToExtent = false, extent = fullExtent) {
   // GBIF tiles
   if (isFilterActive()) {
     const url = buildGbifUrlFromState();
-    gbifLayer.setSource(new ol.source.XYZ({     // replace the source to force a clean refresh of tiles and avoid ghosting 
+    gbifLayer.setSource(new ol.source.XYZ({// replace the source to force a clean refresh of tiles and avoid ghosting 
       url,
       crossOrigin: 'anonymous',
       transition: 0
@@ -121,7 +122,7 @@ function render(zoomToExtent = false, extent = fullExtent) {
   if (state.gadmGid) {
     occBtnEl.textContent = `Occurrences in ${state.provinceName || 'area'}`;
     occBtnEl.style.display = 'inline-block';
-  } else if (isYearsNarrowed()) {
+  } else if (yearRangeChanged()) {
     occBtnEl.textContent = `Occurrences in ${DEFAULT_COUNTRY}`;
     occBtnEl.style.display = 'inline-block';
   } else {
@@ -168,44 +169,28 @@ map.addControl(new ol.control.Control({ element: resetBtnEl }));
 
 // Open GBIF occurrences page button
 occBtnEl.addEventListener('click', () => {
-  const sp = new URLSearchParams();
+  const params = new URLSearchParams();
 
   if (state.gadmGid) {
-    sp.set('gadm_gid', state.gadmGid);
-  } else if (isYearsNarrowed()) {
-    sp.set('country', DEFAULT_COUNTRY);
+    params.set('gadm_gid', state.gadmGid);
+  } else if (yearRangeChanged()) {
+    params.set('country', DEFAULT_COUNTRY);
   }
 
-  if (isYearsNarrowed()) {
-    sp.set('year', `${state.yearFrom},${state.yearTo}`);
+  if (yearRangeChanged()) {
+    params.set('year', `${state.yearFrom},${state.yearTo}`);
   }
 
-  const qs = sp.toString();
+  const qs = params.toString();
   if (qs) window.location.href = `/occurrence/search?${qs}`;
 });
 map.addControl(new ol.control.Control({ element: occBtnEl }));
 
 // Year slider 
-initYearControl();
-
 function initYearControl() {
-  const el = yearControlEl;
-
-  // Title
-  const title = document.createElement('div');
-  title.textContent = 'Years';
-  title.className = 'year-title';
-  el.appendChild(title);
-
-  // Element for noUiSlider
-  const slider = document.createElement('div');
-  slider.style.margin = '10px 6px';
-  el.appendChild(slider);
-
-  // Live label that changes according to current year range
-  const label = document.createElement('div');
-  label.className = 'year-label';
-  el.appendChild(label);
+  const el = document.getElementById('yearControl');
+  const slider = el.querySelector('.yearSliderContainer');
+  const label = el.querySelector('.yearLabel'); // Live label that changes according to current year range
 
   map.addControl(new ol.control.Control({ element: el }));
 
@@ -227,6 +212,11 @@ function initYearControl() {
   slider.noUiSlider.on('change', vals => {
     state.yearFrom = Math.floor(vals[0]);
     state.yearTo = Math.floor(vals[1]);
-    render(false); // no zoom, only refresh tiles
+    render(false); // No zoom, only refresh tiles
   });
+
+  el.style.display = 'block'; // Make it visible, now that it's initialized
+
 }
+
+initYearControl();

@@ -1,0 +1,60 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.map-control {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    font: 14px system-ui, sans-serif;
+}
+
+.map-button {
+    padding: 6px 10px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+#resetAdmin {
+    position: absolute;
+    left: 50px;
+    top: 12px;
+}
+
+#openOcc {
+    position: absolute;
+    left: 230px;
+    top: 12px;
+    display: none; 
+}
+
+.yearControl {
+    position: absolute;
+    left: 12px;
+    top: 60px;
+    padding: 10px;
+    min-width: 240px;
+    cursor: default;
+}
+
+.yearTitle {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.yearLabel {
+    text-align: center;
+}
+
+/*filter to change the color of the basemap */
+.ol_bw {
+filter: grayscale(60%);
+}
