@@ -53,7 +53,8 @@ const pdokToGadm = {
 const provincesLayer = new ol.layer.Vector({
   source: new ol.source.Vector({
     url: 'https://service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0?request=GetFeature&service=WFS&version=1.1.0&typeName=bestuurlijkegebieden:Provinciegebied&outputFormat=application/json&srsName=EPSG:3857', // Provinces from PDOK WFS as JSON
-    format: new ol.format.GeoJSON()
+    format: new ol.format.GeoJSON(),
+    attributions: ['| Provinces Kadaster via <a href="https://www.pdok.nl" target="_blank" rel="noopener">PDOK</a>', '| Occurrences via <a href="https://www.gbif.org" target="_blank" rel="noopener">GBIF</a>', '| Map rendered with <a href="https://openlayers.org" target="_blank" rel="noopener">OpenLayers</a>']
   }),
   style: new ol.style.Style({
     fill: new ol.style.Fill({ color: 'rgba(100, 150, 200, 0)' }), // fill must be present for click detection
@@ -84,7 +85,7 @@ provincesLayer.getSource().on('change', function () {
 
 // GBIF occurrences layer
 const gbifLayer = new ol.layer.Tile({
-  source: new ol.source.XYZ({ url: 'about:blank', crossOrigin: 'anonymous', transition: 0 }),
+  source: new ol.source.XYZ({ url: 'about:blank', crossOrigin: 'anonymous', transition: 0, attributions: 'Occurrences via <a href="https://www.gbif.org" target="_blank" rel="noopener">GBIF</a>'}),
   visible: false,
   zIndex: 5
 });
