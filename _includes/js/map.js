@@ -85,7 +85,7 @@ provincesLayer.getSource().on('change', function () {
 
 // GBIF occurrences layer
 const gbifLayer = new ol.layer.Tile({
-  source: new ol.source.XYZ({ url: 'about:blank', crossOrigin: 'anonymous', transition: 0, attributions: 'Occurrences via <a href="https://www.gbif.org" target="_blank" rel="noopener">GBIF</a>'}),
+  source: new ol.source.XYZ({ url: 'about:blank', crossOrigin: 'anonymous', transition: 0}),
   visible: false,
   zIndex: 5
 });
