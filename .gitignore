@@ -4,7 +4,7 @@ _site
 .jekyll-metadata
 vendor
 _config_local.yml
-.bundle/*
+.bundle/config
 
 # Mac OS X
 .DS_Store

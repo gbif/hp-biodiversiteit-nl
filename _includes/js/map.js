@@ -33,10 +33,26 @@ const map = new ol.Map({
 });
 
 // Provinces Layer
-//GADM provinces GeoJSON layer used for selecting provinces by map click and retrieving the province name and GADM ID, which are then used to build the GBIF Maps API calls
+// Map the PDOK province name to GADM code
+const pdokToGadm = {
+  "Groningen": "NLD.5_1",
+  "Fryslân": "NLD.3_1",
+  "Drenthe": "NLD.1_1",
+  "Overijssel": "NLD.10_1",
+  "Flevoland": "NLD.2_1", // Potentialy need to also add area with code "NLD.13_1"NLD.6_1"
+  "Gelderland": "NLD.4_1",
+  "Utrecht": "NLD.11_1",
+  "Noord-Holland": "NLD.9_1",
+  "Zuid-Holland": "NLD.14_1",
+  "Zeeland": "NLD.12_1", // Potentialy need to also add area with code "NLD.13_1"
+  "Noord-Brabant": "NLD.8_1",
+  "Limburg": "NLD.7_1"
+};
+
+// Provinces layer used for selecting provinces by map click and retrieving the province name and GADM ID, which are then used to build the GBIF Maps API calls
 const provincesLayer = new ol.layer.Vector({
   source: new ol.source.Vector({
-    url: '/assets/layers/gadm41_NLD_1.json',
+    url: 'https://service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0?request=GetFeature&service=WFS&version=1.1.0&typeName=bestuurlijkegebieden:Provinciegebied&outputFormat=application/json&srsName=EPSG:3857', // Provinces from PDOK WFS as JSON
     format: new ol.format.GeoJSON()
   }),
   style: new ol.style.Style({
@@ -46,6 +62,15 @@ const provincesLayer = new ol.layer.Vector({
   zIndex: 10
 });
 map.addLayer(provincesLayer);
+
+// Attach the GADM codes to the PDOK province layer 
+provincesLayer.getSource().on('addfeature', e => {
+  const feature = e.feature;
+  const name = feature.get('naam'); // PDOK field for province name
+  if (name && pdokToGadm[name]) {
+    feature.set('gadmGid', pdokToGadm[name]);
+  }
+});
 
 // Store full extent once the geojson is ready
 provincesLayer.getSource().on('change', function () {
@@ -82,7 +107,6 @@ function buildGbifUrlFromState() {
     style: 'scaled.circles',
     ts: Date.now().toString() //timestamp is used to eliminate caching when tiles are changing 
   });
-
   if (state.gadmGid) { // identifies each province that is clicked on the map and makes the GBIF Maps API call
     params.set('gadm_gid', state.gadmGid); 
   } else if (yearRangeChanged()) {
@@ -141,8 +165,8 @@ map.on('singleclick', (evt) => {
   })?.[0];
 
   if (feature) {
-    state.gadmGid = feature.get('GID_1');
-    state.provinceName = feature.get('NAME_1');
+    state.gadmGid = feature.get('gadmGid');
+    state.provinceName = feature.get('naam');
     const ext = feature.getGeometry().getExtent();
     render(true, ext);
   } else {     // click outside any province: clear province selection
