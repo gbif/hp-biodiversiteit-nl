@@ -1,0 +1,16 @@
+stats:
+  klass: contentTypesStat
+  description:  | 
+  features:
+    - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=NL&limit=0">…</span>
+      description: Publishers
+      background: assets/images/placeholders/institutions_small.jpg
+      href: /publisher/search?country=NL
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=NL&limit=0">…</span>
+      description: Datasets
+      background: /assets/images/placeholders/collections_small.jpg
+      href: /dataset/search
+    - title: '<span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=NL&limit=0">…</span>'
+      description: Occurrences
+      background: assets/images/placeholders/specimen.png
+      href: /occurrence/search

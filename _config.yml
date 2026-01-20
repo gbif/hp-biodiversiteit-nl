@@ -86,7 +86,7 @@ permalink: pretty # will strip extensions like .html from urls
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "en/" # an empty string here means all files in the project
     values:
       layout: "page" # So by default any page will use the layout "page"
       lang: en # And have the default language english
@@ -95,6 +95,10 @@ defaults:
     values:
       layout: "post"
       permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
+  # - scope:
+  #     path: "nl/"
+  #   values:
+  #     lang: nl
   - scope:
       path: "es/" # For anything in the "es" folder the default is to set the lang frontMatter property to "es" . this should be deleted or adapted to your site if you support other languages
     values:
