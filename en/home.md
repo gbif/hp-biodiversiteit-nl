@@ -9,7 +9,6 @@ height: 90vh
 cta:
   - text: Map
     href: /occurrence/search?view=map
-    #isPrimary: true
   - text: How to
     href: /manual
   - text: Status Report Dutch Biodiversity
