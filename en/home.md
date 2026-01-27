@@ -2,32 +2,21 @@
 lang-ref: home
 layout: home
 title: biodiversiteit-nl
-description: Biodiversity data from the Netherlands
+description: Biodiversity data in the Netherlands
 background: "{{ site.data.images.catocala_ilia_cramer.src }}"
 imageLicense: "{{ site.data.images.catocala_ilia_cramer.caption }}"
 height: 90vh
 cta:
-  - text: Occurrences
-    href: /occurrence/search
-    isPrimary: true
-  - text: Datasets
-    href: /dataset/search
-  - text: Collections
-    href: /collection/search
-  - text: Literature
-    href: /literature/search
-  - text: Sequenced records
-    href: sequenced/search
-  - text: About
-    href: /about
+  - text: Map
+    href: /occurrence/search?view=map
+  - text: How to
+    href: /manual
+  - text: Status Report Dutch Biodiversity
+    href: /status_report
 composition:
   - type: heroImage
   - type: stats
-    data: examples.stats
-  - type: split
-    data: examples.herbariumImageExample
-  - type: features
-    data: examples.couldBeAnyName
+    data: home.stats
 permalink: /
 ---
 
