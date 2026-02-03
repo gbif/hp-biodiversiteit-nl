@@ -5,10 +5,12 @@ permalink: /manual
 description: This page provides information on how to navigate the ...
 background: assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
 imageLicense: "{{  }}"
-height: 65vh
+height: 40vh
 ---
 
 ### Title
+This is an example of how it could work
+
 Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
 flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
 pontum ut** avus quamquam de trabes vestemque cruorem tremor.
