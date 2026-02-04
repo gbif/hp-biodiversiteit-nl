@@ -3,13 +3,13 @@ lang-ref: home
 layout: home
 title: biodiversiteit-nl
 description: Biodiversity data in the Netherlands
-background: "{{ site.data.images.catocala_ilia_cramer.src }}"
-imageLicense: "{{ site.data.images.catocala_ilia_cramer.caption }}"
+background: "{{assets/images/placeholders/swan.png}}"
+imageLicense: "{{ Cygnus olor (J.F.Gmelin, 1789) Observed in Netherlands (Kingdom of the) by Jean-Paul Boerekamps (licensed under httpcreativecommons.orgpublicdomainzero1.0) }}"
 height: 90vh
 cta:
-  - text: Map
+  - text: Map of all species in the Netherlands
     href: /occurrence/search?view=map
-  - text: How to
+  - text: How to use this website
     href: /manual
   - text: Status Report Dutch Biodiversity
     href: /status_report
