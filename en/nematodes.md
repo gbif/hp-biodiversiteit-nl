@@ -3,7 +3,7 @@ layout: page
 title: Nematodes
 permalink: /nematodes
 description: This page provides information about nematodes ...
-background: assets/images/placeholders/NEmatode.png
+background: assets/images/placeholders/M'n eigen Beeldbank/NEmatode.png
 imageLicense: "{{Subanguina millefolii (Löw, 1874) Observed in Netherlands (Kingdom of the) by Arjan Portengen (licensed under http://creativecommons.org/licenses/by-nc-sa/4.0/)}}"
 height: 40vh
 ---
