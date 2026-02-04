@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: biodiversiteit-nl
 description: Biodiversity data in the Netherlands
-background: "{{assets/images/placeholders/swan.png}}"
+background: "{{assets/images/placeholders/M'n eigen Beeldbank/swan.png}}"
 imageLicense: "{{ Cygnus olor (J.F.Gmelin, 1789) Observed in Netherlands (Kingdom of the) by Jean-Paul Boerekamps (licensed under httpcreativecommons.orgpublicdomainzero1.0) }}"
 height: 90vh
 cta:
