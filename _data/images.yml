@@ -30,4 +30,23 @@ catocala_ilia_cramer:
   src: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
   caption: |
     [_Catocala ilia_ Cramer, 1779](https://www.gbif.org/occurrence/2365571744) from [Peabody Museum of Natural History](institution/75f50140-830d-4630-a290-3d6e951a7c29)
-
+swan:
+  src: /assets/images/mvp/swan.png
+  caption: | 
+    [Cygnus olor (J.F.Gmelin, 1789) Observed in Netherlands (Kingdom of the) by Jean-Paul Boerekamps (licensed under httpcreativecommons.orgpublicdomainzero1.0)]
+nematodes:
+  src: /assets/images/mvp/nematode.png
+  caption: |
+    [Subanguina millefolii (Löw, 1874) Observed in Netherlands (Kingdom of the) by Arjan Portengen (licensed under http://creativecommons.org/licenses/by-nc-sa/4.0/)]
+mol_jeroen_graat:
+  src: /assets/images/mvp/mol_jeroen_graat.jpg
+  caption: |
+xanthoria:
+  src: /assets/images/mvp/xanthoria_calcicola.png
+  caption: |
+vlinder:
+  src: /assets/images/mvp/vlinder.png
+  caption: |
+spinnetje:
+  src: /assets/images/mvp/spinnetje.png
+  caption: |
