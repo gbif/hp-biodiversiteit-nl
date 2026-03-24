@@ -1,23 +1,30 @@
 statusReportCases:
   title: Case Studies
   description: |
-    Forth beginning form dry thing. Form seed void likeness darkness light. Can’t created third upon spirit fruitful hath likeness their. Replenish saw female night they’re you blessed all greater cattle, grass god fifth you’re. Above wherein replenish face multiply male every. Own hath lights under creeping.
+    Dutch biodiversity is not doing well. This is having a direct impact on our living environment. Existing policies
+    provide a foundation for a positive, biodiverse future, but their success depends on how they are implemented.
+    To achieve the defined recovery targets, we need to use all the resources we have at our disposal. The latest
+    scientific insights and monitoring techniques can serve as instruments to collectively turn the tide.
   features:
     - title: Nematodes
       description: |
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+        It is estimated that there are 1,000 to 2,000 species of nematodes in the Netherlands, 
+        in a variety of biotopes in terrestrial, aquatic, and marine soils.
       href: /nematodes
-      background: /assets/images/placeholders/blocks2.png
-      imageLicense: None for this image, but normally you would provide one here
+      background: "{{ site.data.images.nematodes.src }}"
+      imageLicense:
     - title: Butterflies and moths
       description: |
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href:
-      background: /assets/images/placeholders/blocks2.png
-      imageLicense: None for this image, but normally you would provide one here
+        This group consists of the diurnal butterflies and the much more numerous, nocturnal moths. 
+        Whereas we have been observing butterflies for more than 100 years, 
+        the number ofre is still much to discover about moths.
+      background: "{{ site.data.images.vlinder.src }}"
+      imageLicense:
     - title: Arachnids
       description: |
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href:
-      background: /assets/images/placeholders/blocks2.png
-      imageLicense: None for this image, but normally you would provide one here
+        In the Netherlands, mites are the largest group with about 1,557 species, 
+        while spiders are the best known with 705 species. In addition, harvestmen and 
+        ticks belong to this group, as well as pseudoscorpions (23 species) and short-tailed whip scorpions. 
+        The numbers of the latter are unknown. Because of their tropical origin, they are found exclusively in greenhouses. 
+      background: "{{ site.data.images.spinnetje.src }}"
+      imageLicense: 
