@@ -133,9 +133,14 @@ var siteConfig = {
     "messages": {},
     "occurrenceSearch": {
         "scope": {
-            "type": "equals",
-            "key": "country",
-            "value": "NL"
+            "type": "and",
+            "predicates": [
+                {
+                    "key": "notIssues",
+                    "type": "equals",
+                    "value": "COUNTRY_COORDINATE_MISMATCH"
+                }
+            ]
         },
         "highlightedFilters": [
             "taxonKey",
@@ -176,10 +181,10 @@ var siteConfig = {
             "lat": 46,
             "lng": 11,
             "zoom": 5
-        }
+        },
     },
     "datasetSearch": {
-        excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
+        excludedFilters: ['publishingCountry'],
         highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
         // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
         scope: {

@@ -1,0 +1,30 @@
+statusReportCases:
+  title: Casestudies
+  description: |
+   Het gaat niet goed met de Nederlandse biodiversiteit en dat heeft directe gevolgen voor onze leefomgeving.
+   In bestaand beleid ligt een basis voor een biodiversiteit-positieve toekomst,
+   maar succes hangt af van de uitvoering. Het realiseren van gestelde hersteldoelen vereist een aanpak waarin alle
+   beschikbare middelen worden ingezet. De nieuwste wetenschappelijke inzichten en monitoringstechnieken
+   kunnen de hefboom zijn om gezamenlijk het tij te keren.
+  features:
+    - title: Nematoden
+      description: |
+        Naar schatting zijn er duizend tot tweeduizend soorten nematoden in Nederland 
+        te vinden, in allerlei biotopen in land-, water- en zeebodems. 
+      href: nematodes
+      background: "{{ site.data.images.nematodes.src }}"
+      imageLicense:
+    - title: Vlinders
+      description: |
+        De vlinders bestaan uit de dagvlinders en de veel talrijkere nachtvlinders. Waar we
+        de dagvlinders al meer dan honderd jaar observeren, is er over de nachtvlinders nog veel te ontdekken.
+      background: "{{ site.data.images.vlinder.src }}"
+      imageLicense:
+    - title: Spinachtigen
+      description: |
+        In Nederland vormen de mijten met circa 1557 soorten de grootste groep, terwijl
+        de spinnen met 705 soorten de bekendste zijn. Daarnaast behoren hooiwagens en
+        teken tot deze groep, evenals de pseudoschorpioenen (23 soorten) en de kortstaartzweepschorpioenen. Van die laatste zijn geen aantallen bekend. Vanwege
+        hun tropische oorsprong worden ze uitsluitend in kassen gevonden. 
+      background: "{{ site.data.images.spinnetje.src }}"
+      imageLicense: 

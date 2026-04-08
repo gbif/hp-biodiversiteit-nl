@@ -12,14 +12,14 @@ columns:
 
   - name: Code
     description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
+      This project is **open source** and maintained on our [GitHub repository](https://github.com/gbif/hp-biodiversiteit-nl)
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      nlbif@naturalis.nl
+      * Postbus 9517
+      * 2300 RA Leiden
+      * Netherlands
     connectIcons: true
 
   # EXAMPLE
