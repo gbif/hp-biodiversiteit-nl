@@ -8,27 +8,21 @@ imageLicense: "{{ site.data.images.swan.caption }}"
 height: 90vh
 backgroundPosition: center 50%
 cta:
-  - text: Map of all species in the Netherlands
-    href: /occurrence/search?view=map
-  - text: How to use this website
-    href: /manual
+  - text: Data about the Netherlands
+    href: /occurrence/search?view=map&country=NL
+  - text: Data from the Netherlands
+    href: /occurrence/search?view=map&publishingCountry=NL
   - text: Status Report Dutch Biodiversity
     href: /status_report
+  - text: Community
+    href: /community
+  - text: Services
+    href: /services
+  - text: About
+    href: /about
 composition:
   - type: heroImage
   - type: stats
     data: home.stats
 permalink: /
 ---
-
-Edit `/home.md` to change the text.
-
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
-
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).

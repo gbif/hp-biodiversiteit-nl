@@ -1,14 +1,30 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: About lang2
+- text: Over ons
   href: /nl/about
-- text: Data
-  menu: 
-  - text: Occurrence lang2
-    href: /nl/occurrence/search
-  - text: Datasets lang2
+- text: Ontdekken
+  menu:
+  - text: Gegevens van Nederland
+    href: /nl/occurrence/search?view=map&country=NL
+  - text: Gepubliceerde gegevens van Nederland
+    href: /nl/occurrence/?view=map&publishingCountry=NL
+  - text: Statusrapport Nederlandse Biodiversiteit
+    href: /nl/status_report
+  - text: Datasets
     href: /nl/dataset/search
-  - text: Collections lang2
+  - text: Collecties
     href: /nl/collection/search
-  - text: Literature lang2
+  - text: Organisaties
+    href: /nl/Publishers/search
+  - text: Literatuur
     href: /nl/literature/search
+- text: Linken
+  menu:
+  - text: Handleiding
+    href: /nl/manual
+  - text: GBIF
+    href: "https://www.gbif.org/"
+  - text: Statusrapport Nederlandse Biodiversiteit
+    href: "https://www.naturalis.nl/en/over-ons/biodiversiteit/statusrapport"
+- text: Nieuws
+  href: /

@@ -15,4 +15,4 @@ In addition to the nematodes that live freely in the soil, there is a small grou
 
 Through their activities, nematodes affect other organisms and processes in the soil. As a result, they play a pivotal role in the functioning of soil food webs. They are involved in the conversion of organic matter into nutrients and influence the growth and biomass of their food sources, such as bacteria and fungi. In this way, they contribute to healthy ecosystems by enhancing soil biodiversity and the natural capacity to suppress diseases and pests. 
 
-[Explore nematodes occurrences](/occurrence/search?taxonKey=5967481&view=map){:.button }
+[Explore nematodes occurrences](/occurrence/search?taxonKey=5967481&view=map&country=NL){:.button }

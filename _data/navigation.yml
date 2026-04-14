@@ -4,14 +4,20 @@
   href: /about
 - text: Explore Data
   menu:
-  - text: Occurrences
-    href: /occurrence/search
-  - text: Datasets
-    href: /dataset/search
-  - text: Literature
-    href: /literature/search
+  - text: Data about the Netherlands
+    href: /occurrence/search?view=map&country=NL
+  - text: Data from the Netherlands
+    href: /occurrence/?view=map&publishingCountry=NL
   - text: Status Report  on Dutch Biodiversity Cases
     href: /status_report
+  - text: Datasets
+    href: /dataset/search
+  - text: Collections
+    href: /collection/search
+  - text: Publishers
+    href: /Publishers/search
+  - text: Literature
+    href: /literature/search
 - text: Links
   menu:
   - text: How to

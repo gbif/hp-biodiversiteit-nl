@@ -5,21 +5,21 @@
 columns:
   - name: Partnere
     links:
-    - text: Name of project partner 1
+    - text: Naam van projectpartner 1
       href: http://example.com
-    - text: Name of project partner 2
+    - text: Naam van projectpartner 2
       href: http://example.com
 
   - name: Code
     description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
+      Dit project is open source en wordt onderhouden op onze [GitHub repository](https://github.com/gbif/hp-biodiversiteit-nl)
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      nlbif@naturalis.nl
+      * Postbus 9517
+      * 2300 RA Leiden
+      * Nederland
     connectIcons: true
 
   # EXAMPLE
