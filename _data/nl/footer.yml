@@ -1,23 +1,42 @@
-columns:
-  - name: CONTACT
-    description: |
-     NLBIF is onderdeel van [Naturalis Biodiversity Center](https://www.naturalis.nl)
-     * <nlbif@naturalis.nl>
-     * [nlbif.nl](https://www.nlbif.nl/)
-    connectIcons: true
+# Footer content is organized in columns.
+# You can also add a small print license statement at the bottom.
 
-  - name: CODE
-    description:
+# Columns (the more you add, the narrower they will be)
+columns:
+  - name: Partnere
+    links:
+    - text: Naam van projectpartner 1
+      href: http://example.com
+    - text: Naam van projectpartner 2
+      href: http://example.com
+
+  - name: Code
+    description: | # Can be Markdown
       Dit project is open source en wordt onderhouden op onze [GitHub repository](https://github.com/gbif/hp-biodiversiteit-nl)
   
-  - name: POSTADRES
-    description: |
-      * NLBIF,
-      * Postbus 9517,
-      * 2300 RA, Leiden
+  - name: Contact
+    description: | # Can be Markdown
+      nlbif@naturalis.nl
+      * Postbus 9517
+      * 2300 RA Leiden
+      * Nederland
+    connectIcons: true
 
-  - name: BEZOEKERSADRES
-    description: |
-      * Naturalis Biodiversity Center,
-      * Darwinweg 2,
-      * 2333 CR, Leiden
+  # EXAMPLE
+  #- name: Group name
+  #  description: |
+  #    An optional description. Can be markdown
+  #  links: # optional as well
+  #  - text: link title
+  #    href: http://example.com
+  #  - text: link title 2
+  #    href: http://example2.com
+  #  connectIcons: true # optional - show social icons (defined in _config.yml)
+
+
+# Small print license statement to add at the bottom of the footer. Can be Markdown
+# Will be prefixed by "© {{ site.author }}" if defined in _config.yml
+# Will be postfixed by "Powered by GBIF"
+# (Disabled by default, remove the '#' lines on the following two lines to enable.)
+#license: >
+#  Content on this site is licensed under an [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
