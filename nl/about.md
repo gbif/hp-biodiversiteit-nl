@@ -38,7 +38,7 @@ Door Nederlandse biodiversiteitsgegevens te koppelen aan de wereldwijde GBIF-inf
 ## Over dit Hosted Portal
 Dit portaal is direct gebouwd op data die beschikbaar zijn via GBIF en biedt een op Nederland gericht overzicht van biodiversiteitsinformatie.
 
-Het portaal organiseert data in drie thematische categorieën:
+Het portaal organiseert data in twee thematische categorieën:
 
 ### [Data over Nederland](/occurrence/search?view=map&country=NL)
 

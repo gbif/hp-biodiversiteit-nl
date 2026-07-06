@@ -43,7 +43,7 @@ By connecting Dutch biodiversity data to the global GBIF infrastructure, NLBIF e
 
 This portal is built directly on data available through GBIF and provides a Netherlands-focused view of biodiversity information.
 
-The portal organises data into three thematic categories:
+The portal organises data into two thematic categories:
 
 ### [Data about the Netherlands](/occurrence/search?view=map&country=NL)
 
