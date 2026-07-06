@@ -1,93 +1,70 @@
 ---
 permalink: about
 lang-ref: about
-title: About
-description: Lorem markdownum spatium limes indefessus neque at orat aestuat
-background: /assets/images/placeholders/moss.jpg
+title: More informaton 
+description: About This Portal
+background: /assets/images/mvp/slabroek.jpg
 imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+  Photo by [Joran Quinten](https://unsplash.com/@joranquinten) on Unsplash. 
+  Free to use under the [Unsplash License](https://unsplash.com/license).
 height: 70vh
 ---
 
-## Procris quippe mentior urbes ubi
+## Biodiversity Data for and from the Netherlands
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
-
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
-
-## Quam ex te videt
-
-Quam Erycina et celsoque trabes; torva, nec et alto egens. Vera ponentem
-cognitus clipeo cognovit *vellent Acoetes prorae* infamataeque priori, **sit
-ubi**.
-
-    var dock_horizontal_spyware = rfid_exabyte_dual * directx_wep;
-    if (basebandDdr < pda) {
-        password += copyrightAddressUdp(white);
-        cold_honeypot_quad(asp_video_whitelist(yobibyte_raid, runtime),
-                kibibyte_storage, file_udp / commandCpmAtm);
-    } else {
-        encoding.dragWhoisWww = lun_token * ram;
-        boxCpm(media_drag_southbridge);
-        url_key.gnutellaTrinitron += uddi_login_overwrite;
-    }
-    if (phreaking(digitalMulticasting, compression)) {
-        mashup -= serverWidgetTask(9) + mashupDirectory;
-        safeCifsIde = odbc_modem;
-    }
-
-### Turbatque promittat memorque
-
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
+This portal provides access to biodiversity occurrence data connected to the Netherlands. It showcases information from the Global Biodiversity Information Facility (GBIF) in an accessible way. The portal is designed to help researchers, policymakers, conservation practitioners, educators, and the public discover and explore biodiversity data relevant to the Netherlands.
 
 --------
 
-### In frustra albus
+## What is [GBIF](https://www.gbif.org/)?
 
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
+The Global Biodiversity Information Facility (GBIF) is an international network and data infrastructure that provides free and open access to biodiversity data from around the world.
 
-### Turbatque promittat memorque
+GBIF enables institutions, research organisations, government agencies, museums, citizen science initiatives, and other data providers to publish biodiversity observations, specimen records, and related information using internationally agreed standards. These datasets are aggregated into a single global platform, making it possible to discover, access, and analyse biodiversity information across countries and regions.
 
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| tables        | are useful    |    $1 |
+Today, GBIF provides access to billions of biodiversity occurrence records covering plants, animals, fungi, and other organisms from every continent and ocean. The platform supports research, conservation planning, environmental assessments, policy development, and biodiversity monitoring worldwide.
 
 --------
 
-### In frustra albus
+## What is [NLBIF](https://www.nlbif.nl/)?
 
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
+NLBIF (the Netherlands Biodiversity Information Facility) is the Dutch node of GBIF. NLBIF supports the publication, discovery, and use of biodiversity data originating from the Netherlands.
 
-* Level 1 a
-* Level 1 b
-  * Level 2 a
-  * Level 2 b
+As part of the global GBIF network, NLBIF works with Dutch research institutions, natural history collections, governmental organisations, NGOs, and citizen science initiatives to make biodiversity data openly available according to international standards.
 
-## Est mea videndo
+NLBIF helps data providers publish their datasets through GBIF, promotes best practices in biodiversity data management, and supports the Dutch biodiversity research and policy community in using biodiversity information effectively.
 
-Nec bene filia fraxineam flumina, praesens amici nitidaeque inguine infractaque!
-Non quae illuc! E alto cum quod: fessi fatum patulis ore actaque quaque, ore.
-Honor praemia veniunt violavit tu
-[aequore](http://pete-munere.com/caeneus-dare.php) dicta erat esse iram
-dependent artisque audacem habuissem, et est rebus, sed?
+By connecting Dutch biodiversity data to the global GBIF infrastructure, NLBIF ensures that information collected in the Netherlands contributes to international biodiversity knowledge while remaining accessible for national applications.
 
-[Call to action](/data){: .button .is-primary} [Other action](/data){: .button}
+--------
 
-Qua refert, orbataque a denique silentia. Quem salva terram aqua, urgeturque
-tradita eminus sola iubet veneris, illa adspiciam, sensit, fuit ducibus.
+
+## About This Hosted Portal
+
+This portal is built directly on data available through GBIF and provides a Netherlands-focused view of biodiversity information.
+
+The portal organises data into two thematic categories:
+
+### [Data about the Netherlands](/occurrence/search?view=map&country=NL)
+
+This category includes biodiversity occurrence records observed within the Netherlands. It provides insight into species distributions, biodiversity patterns, and observations collected across Dutch terrestrial, freshwater, and marine environments.
+
+### [Data from the Netherlands](/occurrence/search?view=map&publishingCountry=NL)
+
+This category focuses on datasets and records published by Dutch institutions, organisations, and initiatives. These data represent the Netherlands' contribution to the global biodiversity knowledge base and include observations and specimens from both within and outside the country.
+
+## How the Portal Uses GBIF Data
+
+The portal does not maintain a separate biodiversity database. Instead, it is powered by data published through the GBIF network.
+
+Data displayed here are retrieved from GBIF and organised to support Dutch biodiversity research, monitoring, reporting, and decision-making. By building on GBIF's open infrastructure and international standards, the portal ensures that users have access to up-to-date, globally connected biodiversity information while benefiting from a Netherlands-specific perspective.
+
+--------
+
+## [Open Data and Attribution](https://www.gbif.org/terms)
+
+The biodiversity data accessible through this portal remain the property of the original data providers and publishers. Users should always review dataset licences, citations, and attribution requirements before reusing data.
+
+We encourage responsible data use and proper acknowledgement of the researchers, institutions, organisations, and citizen scientists whose efforts make these data available.
+
+Together, GBIF, NLBIF, and the wider biodiversity community help create an open and collaborative foundation for understanding and conserving biodiversity in the Netherlands and around the world.
