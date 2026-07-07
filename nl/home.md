@@ -2,7 +2,7 @@
 lang-ref: home
 layout: home
 title: Biodiversiteit-NL
-description: Biodiversiteitsdata in Nederland
+description: Gratis en open toegang tot biodiversiteitsdata
 background: /assets/images/mvp/home_bd.jpg
 imageLicense: |
     Foto door [Leo Wieling](https://unsplash.com/@leowieling) op Unsplash. 
