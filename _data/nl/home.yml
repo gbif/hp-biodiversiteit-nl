@@ -4,13 +4,13 @@ stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=NL&limit=0">…</span>
       description: Organisaties
-      background: assets/images/placeholders/institutions_small.jpg
+      background: assets/images/mvp/nederland.jpg
       href: /nl/publisher/search?country=NL
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=NL&limit=0">…</span>
       description: Datasets
-      background: /assets/images/placeholders/collections_small.jpg
+      background: assets/images/mvp/korstmos.png
       href: /nl/dataset/search
     - title: '<span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=NL&limit=0">…</span>'
       description: Gegevens
-      background: assets/images/placeholders/specimen.png
+      background: assets/images/mvp/vlinder.png
       href: /nl/occurrence/search

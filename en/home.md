@@ -1,25 +1,19 @@
 ---
 lang-ref: home
 layout: home
-title: biodiversiteit-nl
-description: Biodiversity data in the Netherlands
-background: "{{ site.data.images.swan.src }}"
-imageLicense: "{{ site.data.images.swan.caption }}"
-height: 90vh
-backgroundPosition: center 50%
+title: Biodiversiteit-NL
+description: Free and open access to biodiversity data
+background: /assets/images/mvp/home_bd.jpg
+imageLicense: |
+    Photo by [Leo Wieling](https://unsplash.com/@leowieling) on Unsplash. 
+    Free to use under the [Unsplash License](https://unsplash.com/license).
+height: 70vh
 cta:
-  - text: Data about the Netherlands
+  - text: Explore data about the Netherlands
     href: /occurrence/search?view=map&country=NL
-  - text: Data from the Netherlands
+    isPrimary: true
+  - text: Explore data from the Netherlands
     href: /occurrence/search?view=map&publishingCountry=NL
-  - text: Status Report Dutch Biodiversity
-    href: /status_report
-  - text: Community
-    href: /community
-  - text: Services
-    href: /services
-  - text: About
-    href: /about
 composition:
   - type: heroImage
   - type: stats
