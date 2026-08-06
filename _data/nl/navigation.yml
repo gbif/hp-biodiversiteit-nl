@@ -1,22 +1,22 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Ontdekken
+- text: Verkennen
   menu:
-  - text: Gegevens van Nederland
+  - text: Data van Nederland
     href: /nl/occurrence/search?view=map&country=NL
-  - text: Gepubliceerde gegevens van Nederland
+  - text: Gepubliceerde data van Nederland
     href: /nl/occurrence/search?view=map&publishingCountry=NL
   - text: Datasets
     href: /nl/dataset/search
   - text: Collecties
     href: /nl/collection/search
-  - text: Organisaties
+  - text: Publishers
     href: /nl/publisher/search?country=NL
-  - text: Literatuur
+  - text: Publicaties
     href: /nl/literature/search
 - text: Ga naar GBIF
   href: "https://www.gbif.org/"
 - text: Ga naar NLBIF
   href: "https://www.nlbif.nl"
-- text: Meer informatie
+- text: Over dit portaal
   href: /nl/about
