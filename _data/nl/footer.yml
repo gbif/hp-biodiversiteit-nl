@@ -1,9 +1,9 @@
 columns:
   - name: CONTACT
     description: |
-     NLBIF is onderdeel van [Naturalis Biodiversity Center](https://www.naturalis.nl)
-     * <nlbif@naturalis.nl>
-     * [nlbif.nl](https://www.nlbif.nl/)
+      * <nlbif@naturalis.nl>
+      * [nlbif.nl](https://www.nlbif.nl/)\
+      NBLIF is gevestigd binnen [Naturalis Biodiversity Center](https://www.naturalis.nl)
     connectIcons: true
 
   - name: CODE
@@ -12,12 +12,12 @@ columns:
   
   - name: POSTADRES
     description: |
-      * NLBIF,
-      * Postbus 9517,
+      * NLBIF
+      * Postbus 9517
       * 2300 RA, Leiden
 
   - name: BEZOEKERSADRES
     description: |
-      * Naturalis Biodiversity Center,
-      * Darwinweg 2,
+      * Naturalis Biodiversity Center
+      * Darwinweg 2
       * 2333 CR, Leiden

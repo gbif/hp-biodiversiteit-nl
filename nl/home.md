@@ -9,10 +9,10 @@ imageLicense: |
     Gratis te gebruiken onder de [Unsplash License](https://unsplash.com/license).
 height: 70vh
 cta:
-  - text: Verken gegevens over Nederland
+  - text: Verken data over Nederland
     href: /nl/occurrence/search?view=map&country=NL
     isPrimary: true
-  - text: Verken gegevens uit Nederland
+  - text: Verken data uit Nederland
     href: /nl/occurrence/search?view=map&publishingCountry=NL
 composition:
   - type: heroImage

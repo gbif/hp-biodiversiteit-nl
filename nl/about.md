@@ -9,25 +9,36 @@ imageLicense: |
 height: 70vh
 ---
 
-## Biodiversiteitsgegevens voor en uit Nederland
+## Over dit portaal
 
-Dit portaal biedt toegang tot gegevens over het voorkomen van biodiversiteit in Nederland. Het presenteert informatie van de Global Biodiversity Information Facility (GBIF) op een toegankelijke manier. Het portaal is ontworpen om onderzoekers, beleidsmakers, natuurbeschermers, docenten en het publiek te helpen bij het ontdekken en verkennen van biodiversiteitsgegevens die relevant zijn voor Nederland.
+Op Biodiversiteit-NL vind je gegevens over biodiversiteit uit en over Nederland. Het portaal is ontworpen om iedereen op een toegankelijke manier biodiversiteitsdata te laten verkennen, van onderzoekers en burgerwetenschappers  tot beleidsmakers, natuurbeschermers en docenten. Zo kunnen de Nederlandse biodiversiteitsdata van GBIF (Global Biodiversity Information Facility) optimaal worden gebruikt voor beleid, educatie en onderzoek.
+
+--------
+
+## Data over én uit Nederland
+Je kan op dit portaal twee categorieën met data verkennen: data over Nederland en data uit Nederland.
+
+### [Data over Nederland](/occurrence/search?view=map&country=NL)
+Deze categorie omvat waarnemingen van biodiversiteit in Nederland. Je vindt hier een overzicht van de verspreiding van soorten dieren, planten en schimmels in Nederlands, op het land, in zoetwater en in de zee.
+
+### [Data uit Nederland](/occurrence/search?view=map&publishingCountry=NL)
+Deze categorie omvat datasets en gegevens gepubliceerd door Nederlandse instellingen, organisaties en initiatieven. Deze data vertegenwoordigen de Nederlandse bijdrage aan de wereldwijde kennisbasis over biodiversiteit in het binnen- en buitenland.
 
 --------
 
 ## Wat is [GBIF](https://www.gbif.org/)?
-De Global Biodiversity Information Facility (GBIF) is een internationaal netwerk en data-infrastructuur die gratis en open toegang biedt tot biodiversiteitsgegevens van over de hele wereld.
+De Global Biodiversity Information Facility (GBIF) biedt gratis en open toegang tot miljarden biodiversiteitsgegevens van over de hele wereld op één wereldwijd platform.
 
-GBIF stelt instellingen, onderzoeksorganisaties, overheidsinstanties, musea, burgerwetenschapsinitiatieven en andere gegevensleveranciers in staat om biodiversiteitswaarnemingen, specimenrecords en gerelateerde informatie te publiceren volgens internationaal overeengekomen standaarden. Deze datasets worden samengevoegd tot één wereldwijd platform, waardoor het mogelijk is om biodiversiteitsinformatie in verschillende landen en regio's te ontdekken, te raadplegen en te analyseren.
+GBIF stelt instellingen, onderzoeksorganisaties, overheidsinstanties, musea, burgerwetenschapsinitiatieven en andere gegevensleveranciers in staat om biodiversiteitswaarnemingen, gegevens van museumcollecties en gerelateerde informatie te publiceren volgens internationaal overeengekomen standaarden. 
 
-GBIF biedt momenteel toegang tot miljarden records van het voorkomen van biodiversiteit, waaronder planten, dieren, schimmels en andere organismen van elk continent en elke oceaan. Het platform ondersteunt onderzoek, natuurbehoudsplanning, milieubeoordelingen, beleidsontwikkeling en biodiversiteitsmonitoring wereldwijd.
+Op deze manier kunnen biodiversiteitsdata wereldwijd worden gebruikt voor onderzoek, natuurbehoud, milieurapportages en het monitoren van biodiversiteit.
 
 --------
 
 ## Wat is [NLBIF](https://www.nlbif.nl/)?
-NLBIF (de Netherlands Biodiversity Information Facility) is het Nederlandse knooppunt van GBIF. NLBIF ondersteunt de publicatie, vindbaarheid en het gebruik van biodiversiteitsgegevens afkomstig uit Nederland.
+NLBIF (Netherlands Biodiversity Information Facility) is het Nederlandse knooppunt van GBIF. NLBIF ondersteunt de publicatie, vindbaarheid en het gebruik van biodiversiteitsgegevens afkomstig uit Nederland.
 
-Als onderdeel van het wereldwijde GBIF-netwerk werkt NLBIF samen met Nederlandse onderzoeksinstellingen, natuurhistorische collecties, overheidsorganisaties, ngo's en burgerwetenschapsinitiatieven om biodiversiteitsgegevens openbaar beschikbaar te maken volgens internationale standaarden.
+Als onderdeel van het wereldwijde GBIF-netwerk werkt NLBIF samen met Nederlandse onderzoeksinstellingen, natuurhistorische collecties, overheidsorganisaties, ngo’s en burgerwetenschapsinitiatieven om biodiversiteitsgegevens openbaar beschikbaar te maken volgens internationale standaarden.
 
 NLBIF helpt data-aanbieders bij het publiceren van hun datasets via GBIF, bevordert best practices in biodiversiteitsdatabeheer en ondersteunt de Nederlandse biodiversiteitsonderzoeks- en beleidsgemeenschap bij het effectief gebruik van biodiversiteitsinformatie.
 
@@ -35,31 +46,28 @@ Door Nederlandse biodiversiteitsgegevens te koppelen aan de wereldwijde GBIF-inf
 
 --------
 
-## Over dit Hosted Portal
-Dit portaal is direct gebouwd op data die beschikbaar zijn via GBIF en biedt een op Nederland gericht overzicht van biodiversiteitsinformatie.
+## Waarom GBIF?
+Het bijeenbrengen van open en vrij toegankelijke biodiversiteitsdata, en het ontwikkelen van de daarvoor benodigde publicatie- en analyse-middelen, zijn noodzakelijk voor:
+- Modern wetenschappelijk onderzoek;
+- De bescherming van biodiversiteit;
+- Het eerlijk verdelen van de ecosysteemdiensten die zij levert;
+- Technologische- en duurzame ontwikkeling en;
+- Het verbeteren van de levenskwaliteit van mensen.
 
-Het portaal organiseert data in twee thematische categorieën:
-
-### [Data over Nederland](/occurrence/search?view=map&country=NL)
-
-Deze categorie omvat waarnemingen van biodiversiteit in Nederland. Het biedt inzicht in de verspreiding van soorten, biodiversiteitspatronen en waarnemingen verzameld in Nederlandse land-, zoetwater- en mariene omgevingen.
-
-
-### [Data uit Nederland](/occurrence/search?view=map&publishingCountry=NL)
-Deze categorie richt zich op datasets en gegevens gepubliceerd door Nederlandse instellingen, organisaties en initiatieven. Deze data vertegenwoordigen de Nederlandse bijdrage aan de wereldwijde kennisbasis over biodiversiteit en omvatten waarnemingen en specimens van zowel binnen als buiten het land.
+Meer informatie op [NLBIF.nl](https://www.nlbif.nl/).
 
 --------
 
 ## Hoe het portaal GBIF-gegevens gebruikt
-Het portaal beheert geen aparte biodiversiteitsdatabase. In plaats daarvan maakt het gebruik van gegevens die via het GBIF-netwerk worden gepubliceerd.
+Het portaal beheert geen aparte database, maar maakt gebruik van gegevens die via het GBIF-netwerk worden gepubliceerd.
 
-De hier weergegeven gegevens zijn afkomstig van GBIF en georganiseerd ter ondersteuning van Nederlands biodiversiteitsonderzoek, monitoring, rapportage en besluitvorming. Door gebruik te maken van de open infrastructuur en internationale standaarden van GBIF, zorgt het portaal ervoor dat gebruikers toegang hebben tot actuele, wereldwijd verbonden biodiversiteitsinformatie, terwijl ze tegelijkertijd profiteren van een Nederlands perspectief.
+De hier weergegeven gegevens zijn afkomstig van GBIF en georganiseerd ter ondersteuning van Nederlands biodiversiteitsonderzoek, monitoring, rapportage en besluitvorming. Door gebruik te maken van de open infrastructuur en internationale standaarden van GBIF, zorgt het portaal ervoor dat gebruikers toegang hebben tot actuele, wereldwijd verbonden biodiversiteitsinformatie, terwijl ze tegelijkertijd profiteren van een Nederlands perspectief
 
 --------
 
 ## [Open data en naamsvermelding](https://www.gbif.org/terms)
 De biodiversiteitsgegevens die via dit portaal toegankelijk zijn, blijven eigendom van de oorspronkelijke gegevensleveranciers en -uitgevers. Gebruikers dienen altijd de licenties, citaties en naamsvermeldingseisen van de datasets te controleren alvorens gegevens opnieuw te gebruiken.
 
-We moedigen verantwoord gebruik van gegevens en een correcte vermelding van de onderzoekers, instellingen, organisaties en burgerwetenschappers aan wiens inspanningen deze gegevens beschikbaar maken.
+Gebruik de gegevens verantwoord en vermeld de onderzoekers, instellingen, organisaties en burgerwetenschappers die deze gegevens beschikbaar maken correct.
 
 GBIF, NLBIF en de bredere biodiversiteitsgemeenschap werken samen aan het creëren van een open en samenwerkingsgerichte basis voor het begrijpen en behouden van biodiversiteit in Nederland en de rest van de wereld.

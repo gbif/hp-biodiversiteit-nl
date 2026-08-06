@@ -11,6 +11,6 @@ stats:
       background: assets/images/mvp/korstmos.png
       href: /nl/dataset/search
     - title: '<span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=NL&limit=0">…</span>'
-      description: Gegevens
+      description: Datapunten
       background: assets/images/mvp/vlinder.png
       href: /nl/occurrence/search

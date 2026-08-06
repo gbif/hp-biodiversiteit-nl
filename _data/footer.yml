@@ -1,9 +1,9 @@
 columns:
   - name: CONTACT
     description: |
-     NLBIF is hosted by [Naturalis Biodiversity Center](https://www.naturalis.nl)
      * <nlbif@naturalis.nl>
-     * [nlbif.nl](https://www.nlbif.nl/)
+     * [nlbif.nl](https://www.nlbif.nl/)\
+     NLBIF is hosted by [Naturalis Biodiversity Center](https://www.naturalis.nl)
     connectIcons: true
 
   - name: CODE
@@ -12,12 +12,12 @@ columns:
   
   - name: MAILING ADDRESS
     description: |
-      * NLBIF,
-      * Postbus 9517,
+      * NLBIF
+      * Postbus 9517
       * 2300 RA, Leiden
 
   - name: VISITING ADDRESS
     description: |
-      * Naturalis Biodiversity Center,
-      * Darwinweg 2,
+      * Naturalis Biodiversity Center
+      * Darwinweg 2
       * 2333 CR, Leiden
